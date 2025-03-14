@@ -1,0 +1,15 @@
+secure_services:
+  - family: lpsram_protection
+    entries:
+      - id: 200
+        type: custom
+        function: show_protection_info
+        args: 0
+      - id: 201
+        type: custom
+        function: protect_lpsram
+        args: 1
+      - id: 202
+        type: custom
+        function: reset_buffering
+        args: 4

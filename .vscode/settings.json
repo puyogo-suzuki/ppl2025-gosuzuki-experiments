@@ -1,0 +1,27 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.openOcdConfigs": [
+    "board/esp32c6-builtin.cfg"
+  ],
+  "idf.flashType": "UART",
+  "idf.portWin": "COM4",
+  "files.associations": {
+    "csr.h": "c",
+    "esp_intr_alloc.h": "c",
+    "esp_tee.h": "c",
+    "secure_service_num.h": "c",
+    "soc_caps.h": "c",
+    "esp_memprot.h": "c",
+    "esp_rom_sys.h": "c",
+    "soc_memprot_types.h": "c",
+    "panic_internal.h": "c",
+    "system_internal.h": "c",
+    "esp_ipc_isr.h": "c",
+    "soc_memory_layout.h": "c",
+    "cstdint": "c",
+    "esp_macros.h": "c",
+    "apm_hal.h": "c",
+    "rvruntime-frames.h": "c",
+    "xorshift32.h": "c"
+  }
+}
